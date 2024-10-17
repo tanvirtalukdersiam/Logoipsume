@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+#main_menu {
+  padding: 28px 0px;
+}
+#main_menu ul li a {
+  stylename: Text/Regular/Normal;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-size: 18px;
+  margin-left: 20px;
+  color: rgba(28, 30, 83, 1);
+}
+#main_menu ul li a:hover {
+  transition: 0.4s;
+  color: rgba(94, 59, 238, 1);
+}
+#main_menu .logo img {
+  width: 190px;
+  object-fit: contain;
+}
+
+/* bannar start */
+
+.main {
+  padding: 110px 0px;
+}
+.banner {
+  background-color: #f5fcff;
+}
+.banner .banner_text {
+  margin-top: 120px;
+}
+.banner .banner_text h6 {
+  color: #282938;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.banner .banner_text h1 {
+  color: #282938;
+  font-family: Roboto;
+  font-size: 50px;
+  line-height: 60px;
+  width: 525px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  font-weight: 600;
+}
+.banner .banner_text p {
+  color: #282938;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 29px;
+  font-style: normal;
+  font-weight: 400;
+  width: 519px;
+}
+
+.banner .banner_text a {
+  padding: 15px 25px;
+  text-decoration: none;
+  background-color: #5e3bee;
+  color: aliceblue;
+  border-radius: 5px;
+  margin-top: 17px;
+}
+
+.banner .img img {
+  width: 680px;
+}
+
+/* bannar end */
+
+/* card section start */
+.card_section {
+  padding: 125px 0px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.card_section .banner_text h6 {
+  color: #282938;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.card_section .banner_text h2 {
+  color: #282938;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+.card_section .item {
+  padding: 30px;
+  background-color: rgba(245, 252, 255, 1);
+
+  border-radius: 6px;
+}
+
+.card_section .item .text h3 {
+  font-size: 23px;
+  font-family: Roboto;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+.card_section .item .text p {
+  color: #282938;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  width: 255px;
+  line-height: 27px;
+}
+
+/* card section end */
